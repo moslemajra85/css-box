@@ -1,0 +1,40 @@
+/* Reset */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  border: 1px solid dodgerblue;
+  padding: 20px;
+  margin: 10px;
+  background-color: goldenrod;
+  color: blue;
+  font-size: 50px;
+  font-family: "Monsieur La Doulaise", cursive, sans-serif;
+}
+
+.img-container {
+  border: 2px solid red;
+  max-width: 600px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+  max-width: 600px;
+  height: 400px;
+
+  background-image: url("./images/nature.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
