@@ -32,9 +32,39 @@ h1 {
   color: #fff;
   max-width: 600px;
   height: 400px;
-
   background-image: url("./images/nature.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.food-list {
+  max-width: 350px;
+  margin: 25px auto;
+  font-family: sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.title {
+  background-color: goldenrod;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+  text-align: center;
+}
+
+.list {
+  border: 2px solid #ddd;
+}
+
+.list li {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
